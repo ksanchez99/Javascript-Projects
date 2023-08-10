@@ -1,5 +1,5 @@
-function Car_Dictionary() {
-    var Vehicle = {
+function Car_Dictionary() { //key value dictionary
+    var Vehicle = { //all keys for this key value pair
         Make: "Dodge",
         Color: "Black",
         Model: "Charger",
