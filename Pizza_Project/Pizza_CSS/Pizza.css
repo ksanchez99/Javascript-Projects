@@ -1,0 +1,87 @@
+/*This transforms the menu background*/
+#menuBG {
+    width: 800px;
+    height:490px;
+    margin:10px auto;
+    background-color: burlywood;
+    border-color: black;
+    border-radius: 3rem;
+}
+
+#frmMenu {
+    width: 800px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+/*This tragtes the left menu*/
+.left {
+    width: 200px;
+    height: 400px;
+    border-radius: 2rem;
+    float: left;
+    color: chocolate;
+    background-color: chartreuse;
+}
+/*This targets the right menu*/
+.right {
+    width: 200px;
+    height: 400px;
+    border-radius: 2rem;
+    float: right;
+    color: aqua;
+    background-color: darksalmon;
+}
+
+#showText {
+    width:200px;
+    height:190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+/*This makes sure to center the button relative
+to the menu*/
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height:40px;
+    background-color: aquamarine;
+    position: relative;
+    border-radius: 2rem;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 30%;
+    bottom: -15px; 
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/*This centers the vegetable menu*/
+.center {
+    width:  400px;
+    height: 400px;
+    float: right;
+    color: beige;
+    background-color: black;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(41, 153, 106);
+}
